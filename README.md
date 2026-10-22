@@ -211,7 +211,7 @@ Further definitions and data considerations are documented in the methodology re
 ### Explore the project
 
 1. Review the dashboard previews above.
-2. Open the [methodology and final report](documentation/FlashRole_Methodology_and_Final_Report(1).pdf) for preparation and definitions.
+2. Open the [methodology and final report](FlashRole_Methodology_and_Final_Report%20(1).pdf) for preparation and definitions.
 4. Review the [DAX library](dax-measures/FlashRole_DAX_Measure_Library.xlsx) for measure logic.
 
 This package contains static previews and supporting documentation. The Power BI file and original database are not included; previews do not provide interactive filtering.
