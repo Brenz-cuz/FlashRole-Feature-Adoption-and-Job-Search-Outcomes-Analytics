@@ -130,3 +130,93 @@ Calculated columns support the comparisons:
 
 The user-based percentages above are different from the application-based rates in the comparison charts.
 
+## Key findings
+
+### Feature adoption and repeat use
+
+| Recorded activity | Adoption | Repeat use among adopters | Median days to first use |
+|---|---:|---:|---:|
+| Resume upload | 100.00% | 50.28% | 73 |
+| ATS check | 100.00% | 50.28% | 75 |
+| Application | 70.22% | 98.17% | 132.5 |
+| Job match | 70.22% | 98.17% | 134 |
+| Cover letter | 63.91% | 73.70% | 150 |
+| Interview preparation | 24.98% | 55.37% | 53 |
+
+Resume upload and ATS checks have universal recorded coverage, while interview preparation reaches approximately one in four users. Cover-letter use starts latest. Job matching has strong repeat activity among its adopters.
+
+### Recorded user journey
+
+All registered users have resume records; approximately 80,000 have a currently finalised resume. There are 70,224 applicants and 6,733 users with a recorded offer. This gives leadership a view of milestone reach without treating every difference as a verified sequential drop-off.
+
+### Cover letters
+
+Applications with linked letters have an interview-or-offer rate of **7.95%**, versus **8.05%** without linked letters. Offer rates are **2.00%** and **2.02%**, respectively. The recorded rates are similar.
+
+### ATS scores
+
+Interview-or-offer rates remain approximately **8%** across score bands. The 60-to-below-80 band has a rate of **8.05%**, compared with **7.98%** in the 80-to-100 band. Higher ATS scores do not show a consistent outcome advantage in this comparison.
+
+### Job-match scores
+
+The 80-to-100 band has the highest interview-or-offer rate at **8.36%** and offer rate at **2.15%**. However, rates do not rise consistently across all score bands.
+
+### Interview preparation
+
+Applications with preparation recorded by application date have an interview-or-offer rate of **8.08%**, compared with **7.98%** without it. Their offer rates are **1.98%** and **2.02%**. This comparison shows no consistent advantage across both outcomes.
+
+### Resume revisions
+
+| Recorded revisions available by application | Interview-or-offer rate | Offer rate |
+|---|---:|---:|
+| 0 | 8.03% | 2.03% |
+| 1 | 7.95% | 1.99% |
+| 2 | 8.03% | 1.97% |
+
+Average ATS scores are also similar across the groups. More recorded revisions are not consistently associated with better scores or outcomes.
+
+## Strategic recommendations
+
+The following are proposed actions for FlashRole, not implemented changes or realised business results.
+
+| Priority | Recommendation | Suggested owner | Metric to monitor |
+|---|---|---|---|
+| Feature discovery | Test timely prompts for interview preparation and cover-letter generation | Product / UX | Adoption, repeat use and first-use delay |
+| Application progression | Review application-to-interview progression by plan and role to identify support needs | Product Analytics | Applicant Interview/Offer and Offer shares |
+| Resume quality | Encourage specific content improvements rather than additional versions alone | Resume Product | ATS scores and application outcome rates |
+| Score guidance | Pair ATS and match scores with guidance on skills, experience and job requirements | ATS / Matching Product | Outcomes and sample counts by score band |
+| Application support | Present cover letters as supporting material and tailor interview practice to role requirements | Career Tools Product | Feature engagement and application outcomes |
+
+## Analytical assumptions
+
+- Findings show associations between recorded feature use and outcomes, rather than causal effects.
+- Interview rates include applications currently marked `Interview` or `Offer`. Journey visuals represent recorded milestones rather than complete application histories.
+- Scores and interview preparation are matched to records dated on or before application; same-day ordering is unavailable.
+- Cover-letter linkage does not confirm submission. Revision groups represent versions available to the user, which may differ from the version submitted.
+- Outcome comparisons and average ATS scores are calculated per application. Adoption is measured among registered users; repeat use and first-use timing are measured among feature adopters.
+
+Further definitions and data considerations are documented in the methodology report.
+
+
+## Repository contents
+
+| Path | Contents |
+|---|---|
+| `README.md` | Project overview, methodology, findings and recommendations |
+| `Flashrole%20Feature%20Adoption%20Dashboard.png` | Feature Adoption dashboard preview |
+| `Flashrole%20Application%20Outcome%20Dashboard.png` | Application Outcomes dashboard preview |
+| `FlashRole_Methodology_and_Final_Report%20(1).pdf` | Dataset, preparation, definitions and findings |
+| `dax-measures/FlashRole_DAX_Measure_Library.xlsx` | Documented DAX measures |
+
+### Explore the project
+
+1. Review the dashboard previews above.
+2. Open the [methodology and final report](documentation/FlashRole_Methodology_and_Final_Report(1).pdf) for preparation and definitions.
+4. Review the [DAX library](dax-measures/FlashRole_DAX_Measure_Library.xlsx) for measure logic.
+
+This package contains static previews and supporting documentation. The Power BI file and original database are not included; previews do not provide interactive filtering.
+
+## Conclusion
+
+This project brings feature engagement and job-search outcomes into a shared analytical view. Its main message is that broader feature use, higher assessment scores and more revisions do not automatically correspond to better recorded outcomes. The recommendations focus on useful guidance, timely feature discovery and relevant application support, with metrics to evaluate subsequent changes.
+
